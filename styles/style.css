@@ -125,6 +125,7 @@ main {
   background-color: #fafcff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 15px;
+  border-radius: 15px;
 }
 .card-title {
   margin-bottom: 5px;
@@ -142,4 +143,52 @@ main {
 .user-img {
   height: 45px;
   border-radius: 50%;
+}
+/* get-in-touch-styles */
+.contact {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.contact-col {
+  width: 50%;
+}
+
+.contact-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  color: #000000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #e6e4e4;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+}
+
+.contact-form .btn-primary {
+  margin-top: 20px;
+  width: 100%;
 }
