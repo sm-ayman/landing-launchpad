@@ -192,3 +192,42 @@ main {
   margin-top: 20px;
   width: 100%;
 }
+
+/* footer-section */
+.footer {
+  background-color: #ffffff;
+  padding: 70px 350px;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo {
+  font-family: "Inter", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  color: #8987a1;
+  margin-bottom: 30px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: #8987a1;
+  cursor: pointer;
+}
