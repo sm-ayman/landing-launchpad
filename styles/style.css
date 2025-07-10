@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
-  font-family: "Raleway", sans-serif;
+  font-family: "Inter", "Raleway", sans-serif;
 }
+
 /* shared-styles */
 .primary-color {
   color: #4e47ff;
@@ -15,17 +17,21 @@
   font-weight: bold;
   font-size: 15px;
 }
+.secondary-bg {
+  background-color: #e5e7ff;
+  border-radius: 24px;
+}
 
 /* header-style */
 .header {
   background-image: url("../Assets/Hero-bg.png");
-  background-repeat: no-repeat;
   background-size: auto;
   padding: 0px 150px;
 }
 .logo {
-    font-size: 34px;
-    font-weight: 700px;
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
 }
 .nav {
   display: flex;
@@ -70,4 +76,24 @@ main {
 }
 .action-description {
   color: #252432;
+}
+/* pro-user-styles */
+.pro-user {
+  font-size: 38px;
+  font-weight: bold;
+  padding: 50px 80px;
+}
+.pro-user-title{
+    text-align: center;
+}
+.counts {
+  font-family: "Inter", sans-serif;
+}
+.pro-user-counts {
+  display: flex;
+  justify-content: space-around;
+}
+.pro-user-subtitle {
+  font-size: 20px;
+  font-weight: 200;
 }
