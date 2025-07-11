@@ -236,6 +236,9 @@ main {
 .focus-better-section {
   margin-top: 100px;
   text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
 }
 .focus-title {
   font-size: 45px;
