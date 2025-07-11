@@ -231,3 +231,17 @@ main {
   color: #8987a1;
   cursor: pointer;
 }
+
+/* focus-better-section */
+.focus-better-section {
+  margin-top: 100px;
+  text-align: center;
+}
+.focus-title {
+  font-size: 45px;
+}
+.focus-img {
+  width: 800px;
+  border-radius: 50px;
+  margin: 50px;
+}
